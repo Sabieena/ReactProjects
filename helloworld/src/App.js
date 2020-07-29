@@ -1,11 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-class HelloWorld extends React.Component{
-  render(){
-    return <h1> Hello World! </h1>
-  }
+import React from "react";
+import Greet from './component/Func';
+
+ const Sabina = () => {
+  return(
+    <div>
+      Hello sabina
+      <Greet />
+    </div>
+  )
 }
 
-export default HelloWorld;
+export default Sabina;
