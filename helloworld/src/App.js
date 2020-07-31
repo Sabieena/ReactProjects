@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import Greet from './component/Func';
 import Welcome from './component/Welcome';
 import Hello from'./component/Hello';
+import Message from'./component/Message';
+
 
 class App extends Component{
   render(){
@@ -10,7 +12,10 @@ class App extends Component{
       <div className="App">
         <Welcome/>
         <Greet/>
-        <Hello/>
+        <Hello name=" Friends "/>
+        <Hello name=" Everyone "/>
+        <Message />
+
       </div>
     )
   }
