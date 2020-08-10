@@ -11,13 +11,13 @@ class App extends Component{
   render(){
     return(
       <div className="App">
-        <Counter />
+        {/* <Counter /> */}
 
-        {/* <Welcome/>
+        <Welcome/>
         <Greet/>
         <Hello name=" Friends "/>
         <Hello name=" Everyone "/>
-        <Message /> */}
+        <Message />
 
       </div>
     )
