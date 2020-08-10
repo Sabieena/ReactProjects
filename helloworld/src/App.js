@@ -7,14 +7,16 @@ import Message from'./component/Message';
 import Counter from './component/Counter';
 import FunctionClick from './component/FunctionClick';
 import ClassClick from "./component/ClassClick";
+import EventBind from "./component/EventBind";
 
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <FunctionClick />
-        <ClassClick />
+        <EventBind/>
+        {/* <FunctionClick />
+        <ClassClick /> */}
         {/* <Counter />
 
         <Welcome name ="Tony Stark" heroName="Iron Man"/>
