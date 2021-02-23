@@ -8,13 +8,15 @@ import Counter from './component/Counter';
 import FunctionClick from './component/FunctionClick';
 import ClassClick from "./component/ClassClick";
 import EventBind from "./component/EventBind";
+import List from "./component/List";
 
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <EventBind/>
+        <List />
+        {/* <EventBind/> */}
         {/* <FunctionClick />
         <ClassClick /> */}
         {/* <Counter />
