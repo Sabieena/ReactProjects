@@ -9,17 +9,21 @@ import FunctionClick from './component/FunctionClick';
 import ClassClick from "./component/ClassClick";
 import EventBind from "./component/EventBind";
 import List from "./component/List";
+import Count from './component/Count'
 
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <List />
+        <Count />
+      
+        {/* <List /> */}
+        {/* <Counter /> */}
         {/* <EventBind/> */}
         {/* <FunctionClick />
         <ClassClick /> */}
-        {/* <Counter />
+        {/* 
 
         <Welcome name ="Tony Stark" heroName="Iron Man"/>
         <Greet/>
